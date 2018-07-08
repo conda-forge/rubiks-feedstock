@@ -14,12 +14,14 @@ source:
     - makefile.patch
 
 build:
-  number: 0
+  number: 1
   skip: true  # [win]
 
 requirements:
   build:
-    - toolchain
+    - {{ compiler('c') }}
+    - {{ compiler('cxx') }}
+  host:
 
 test:
   commands:
