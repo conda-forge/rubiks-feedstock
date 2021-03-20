@@ -32,7 +32,7 @@ test:
 
 about:
   home: https://github.com/sagemath/sage
-  license: GPLv2+
+  license: GPL-2.0-or-later
   license_file: {{ SRC_DIR }}/LICENSE.txt
   summary: A collection of software for solving Rubik's cubes by Reid, Winter and Dietz
 
